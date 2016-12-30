@@ -1,0 +1,210 @@
+.wow {
+    visibility: hidden;
+}
+#up-trigger {
+	position: fixed; 
+	bottom: rem-calc(25);
+	right: rem-calc(25);
+	width: rem-calc(50);
+	height: rem-calc(50);
+	text-align: center;
+	background: #D50032;
+	color: #FFFFFF;
+	line-height: rem-calc(45);
+	display: none;
+}
+header {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 9999999;
+	
+	@include breakpoint(small only) {
+		text-align: center;
+	}
+	img {
+		@include breakpoint(small only) {
+			width: rem-calc(100);
+			margin-bottom: rem-calc(10);
+		}
+		margin: auto;
+	}
+	.align-middle {
+		height: rem-calc(160); 
+		position: relative;
+	}
+	nav {
+		
+		margin-bottom: rem-calc(40);
+		@include breakpoint(medium up) {
+			text-align: right;	
+			float: right;
+		}
+		a {
+			.inner {
+				display: inline;
+				-webkit-transition: all 0.2s ease;
+				transition: all 0.2s ease;
+				&:hover {
+					color: $white;
+					opacity: 0.7;
+				    -webkit-transition: all 0.2s ease;
+					transition: all 0.2s ease;
+				}
+			}
+			@include breakpoint(small only) {
+				font-size: rem-calc(14);
+			}
+			font-weight: bold;
+			color: $white;
+			margin-left: rem-calc(15);
+			-webkit-transition: all 0.2s ease;
+			transition: all 0.2s ease;
+			i {
+				@include breakpoint(medium up) {
+				font-size: rem-calc(24)!important;
+				}
+				margin-left: rem-calc(10);
+			}
+			&#about:hover, &#ben:hover {
+				color: $white;
+				opacity: 0.7;
+			    -webkit-transition: all 0.2s ease;
+				transition: all 0.2s ease;
+			}
+			span {
+			    border-left: 4px solid #FFFFFF;
+				padding-right: rem-calc(20);;
+			}
+		}
+	}
+	#social {
+		margin-top: rem-calc(10);
+		margin-left: rem-calc(20);
+		@include breakpoint(large up) {
+			display: inline;
+			margin-top: 0;
+		} 
+		i {
+			-webkit-transition: all 0.2s ease;
+					transition: all 0.2s ease;
+		}
+		a {
+			margin: rem-calc(0);
+		}
+		a:hover {
+			color: #FFFFFF!important;
+			-webkit-transition: all 0.2s ease;
+			transition: all 0.2s ease;
+			i {
+				opacity: 0.7!important;
+				-webkit-transition: all 0.2s ease;
+				transition: all 0.2s ease;
+			}
+		}
+	}
+}
+.connect {
+	background: #F0F0F0;
+	.align-middle {
+		height: rem-calc(180);
+	}
+	h4 {
+		font-weight: bold;
+		margin-bottom: rem-calc(25);
+	}
+	a {
+		 -webkit-transition: all 0.2s ease;
+			transition: all 0.2s ease;
+		i {
+			font-size: rem-calc(36);
+			margin: 0 rem-calc(30);
+			color: #D50032;
+		}
+		&:hover {
+			opacity: 0.7;
+		    -webkit-transition: all 0.2s ease;
+			transition: all 0.2s ease;
+		}
+		
+	}
+}
+.button.share {
+		background: #D50032;
+		font-weight: bold;
+		margin-bottom: 0;
+		width: 100%;
+		padding: rem-calc(20) 0;
+		-webkit-transition: all 0.2s ease;
+		transition: all 0.2s ease;
+		i {
+			font-size: rem-calc(20);
+			margin-left: rem-calc(10);
+		}
+		&:hover {
+			opacity: 0.7;
+			-webkit-transition: all 0.2s ease;
+			transition: all 0.2s ease;
+		}
+	}
+footer {
+	@include breakpoint(small only) {
+		text-align: center;
+	}
+	.align-middle {
+		@include breakpoint(small only) {
+			height: rem-calc(120);
+		}
+		height: rem-calc(100);
+	}
+	a {
+		@include breakpoint(small only) {
+			text-align: center;	
+		}
+		font-weight: bold;
+		font-size: rem-calc(13);
+		color: #9B9B9B;
+		margin: 0 rem-calc(15);
+		-webkit-transition: all 0.2s ease;
+		transition: all 0.2s ease;
+		&:hover {
+			color: #9B9B9B;
+			opacity: 0.7;
+		    -webkit-transition: all 0.2s ease;
+			transition: all 0.2s ease;
+		}
+	}
+	p {
+		font-size: rem-calc(10);
+		margin-bottom: 0;
+	}
+}
+.search-cta {
+	position: absolute;
+    bottom: -70px;
+    left: 24px;
+
+	width: 30%;
+	@include breakpoint(small only) {
+		display: none;
+	}
+	margin-top: rem-calc(180);
+    display: block;
+    background: #FFFFFF;
+    text-align: center;
+    font-size: 24px;
+    color: #D50032;
+    font-weight: bold;
+    padding: rem-calc(15) 0;
+     -webkit-transition: all 0.2s ease;
+	 transition: all 0.2s ease;
+	 box-shadow: 0 5px 10px 0 rgba(0,0,0,0.20);
+    &:hover {
+	    opacity: 0.7;
+	    color: #D50032;
+	    -webkit-transition: all 0.2s ease;
+		transition: all 0.2s ease;
+    }
+}
+
+
