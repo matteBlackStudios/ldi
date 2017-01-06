@@ -30,6 +30,38 @@ $cols = Array ("p.JobTitle", "p.JobDescription", "p.PostingDate", "p.JobLink", "
 
 $db->where('p.deleted_at', '0000-00-00 00:00:00');
 
+if(!empty($get['o'])){
+    $get_order = explode('|',$get['o']);
+    foreach($get_order as $row){
+	    if ($row == 'jobid'){
+            $db->orderBy('p.ReqGuid', 'asc');
+        }
+        if ($row == '-jobid'){
+            $db->orderBy('p.ReqGuid', 'desc');
+        }
+        if ($row == 'jobtitle'){
+            $db->orderBy('p.JobTitle', 'asc');
+        }
+        if ($row == '-jobtitle'){
+            $db->orderBy('p.JobTitle', 'desc');
+        }
+        if ($row == 'loc'){
+            $db->orderBy('p.JobLocationCity', 'asc');
+        }
+        if ($row == '-loc'){
+            $db->orderBy('p.JobLocationCity', 'desc');
+        }
+        if ($row == 'date'){
+            $db->orderBy('p.PostingDate', 'asc');
+        }
+        if ($row == '-date'){
+			$db->orderBy('p.PostingDate', 'desc');
+        }
+    }
+} else {
+    $db->orderBy('p.PostingDate', 'desc');
+}
+
 // Search
 if(!empty($get['keywords'])){
     $db->where('(p.JobTitle LIKE "%' . $get['keywords'] . '%" OR p.JobDescription LIKE "%'  . $get['keywords'] . '%" OR p.JobLocationState LIKE "%' . $get['keywords'] . '%" OR p.JobLocationCity LIKE "%' . $get['keywords'] . '%" OR p.jobCategory LIKE "%' . $get['keywords'] . '%" OR p.ReqGuid LIKE "%' . $get['keywords'] . '%")');
@@ -71,10 +103,10 @@ if($count != 0){
 								<table style="width: 100%;">
 								<thead>
 									<tr>
-								        <th class="id wow fadeIn">JOB ID</th>
-								        <th class="title wow fadeIn">JOB TITLE</th>
-								        <th class="location wow fadeIn">LOCATION</th>
-										<th class="posted wow fadeIn">POSTED DATE</th>
+								        <th class="id wow fadeIn"><a class="o o-date '.($get['o'] == 'jobid' || $get['o'] == '-jobid' ? 'active' : '').'" data-href="'.($get['o'] == 'jobid' ? '-jobid' : 'jobid').'">JOB ID</a></th>
+								        <th class="title wow fadeIn"><a class="o o-job " data-href="job"><a class="o o-date '.($get['o'] == 'jobtitle' || $get['o'] == '-jobtitle' ? 'active' : '').'" data-href="'.($get['o'] == 'jobtitle' ? '-jobtitle' : 'jobtitle').'">JOB TITLE</a></a></th>
+								        <th class="location wow fadeIn"><a class="o o-job " data-href="job"><a class="o o-date '.($get['o'] == 'loc' || $get['o'] == '-loc' ? 'active' : '').'" data-href="'.($get['o'] == 'loc' ? '-loc' : 'loc').'">LOCATION</a></th>
+										<th class="posted wow fadeIn"><a class="o o-date '.($get['o'] == 'date' || $get['o'] == '-date' ? 'active' : '').'" data-href="'.($get['o'] == 'date' ? '-date' : 'date').'">POSTED DATE</a></th>
 								    </tr>
 								</thead>
 								<tbody>';

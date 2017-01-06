@@ -1,7 +1,7 @@
 var sitename = 'LDI Careers';
 // var site = 'http://localhost:8888/ldi/dist/';
 // var site = 'http://jobs.libertydiversified.com.php56-17.dfw3-1.websitetestlink.com/';
-var site = 'http://jobs.libertydiversified.com';
+var site = 'http://jobs.libertydiversified.com/';
 $(document).ready(function () {
 
     // Load Results on Page Load
@@ -92,6 +92,13 @@ $(document).ready(function () {
         update_url(newURL);
     });
 
+});
+
+$(document).on("click", ".o", function() {
+    var href = $(this).attr('data-href');
+
+    var newURL = updateURLParameter(window.location.href, 'o', href);
+    update_url(newURL);
 });
 
 /**
@@ -195,6 +202,7 @@ function search(){
             'spage': GetURLParameter('spage'),
             'category': GetURLParameter('category'),
             'location': GetURLParameter('location'),
+            'o': GetURLParameter('o')
         },
         dataType: "text",
         success: function (data) {

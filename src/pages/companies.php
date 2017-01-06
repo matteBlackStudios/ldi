@@ -50,16 +50,35 @@
 </div>
 <div class="row align-center company">
 	<div class="small-10 medium-3 columns">
-		<img class="wow fadeIn" src="{{root}}assets/img/logos/mayline-safco.png" alt="Mayline">
-		<p class="wow fadeIn">Sheboygan, WI<br>
-		Little Rock, AR
+		<img class="wow fadeIn" src="{{root}}assets/img/logos/liberty-paper.png" alt="Liberty Paper, Inc.">
+		<p class="wow fadeIn">Becker, MN
 		</p>
-		<a class="wow fadeIn" href="www.SafcoProducts.com" target="_blank"><strong>SafcoProducts.com</strong></a>
+		<a class="wow fadeIn" href="http://www.libertypaper.com/" target="_blank"><strong>LibertyPaper.com/</strong></a>
 	</div>
 	<div class="small-10 medium-6 columns">
-		<p class="wow fadeIn"><strong>Mayline</strong> was founded in 1939, manufacturing drafting tables as the Engineering Supply Company.  Today, Mayline is one of the leading mid-market contract furniture manufacturers in the U.S., offering a complete collection of office furniture, filing, storage and customized solutions.  As one of our most recent acquisitions (October 2016), Mayline is headquartered and manufactures the majority of its products in Sheboygan, Wisconsin, with a distribution center in Little Rock, Arkansas. Mayline employs approximately 220 people.</p>
+		<p class="wow fadeIn"><strong>Liberty Paper, Inc.</strong>, located in Becker, Minn, is a high technology driven paper mill that recycles old corrugated containers (OCC) into Kraft liner board for new corrugated packaging. This 100% recycled paper mill is as committed to the environment as they are to product innovation.</p>
 
-		<p class="wow fadeIn">Together, our companies <strong>Mayline & Safco</strong> bring 125 years of industry knowledge and operate in unison to bring even more mid-market, workspace product innovations to the commercial furniture industry.</p>
+	</div>
+</div>
+<div class="row align-center company">
+	<div class="small-10 medium-3 columns">
+		<img class="wow fadeIn" src="{{root}}assets/img/logos/mayline-safco.png" alt="Mayline">
+		<p class="wow fadeIn">
+			Kennesaw, GA<br>
+			Little Rock, AR<br>
+			Minneapolis, MN<br>
+			North Kingstown, RI<br>
+			Riverside, CA<br>
+			Sheboygan, WI<br>
+			Windsor, VA
+		</p>
+		<a class="wow fadeIn" href="https://www.mayline.com/" target="_blank"><strong>Mayline.com</strong></a><br>
+		<a class="wow fadeIn" href="https://www.SafcoProducts.com/" target="_blank"><strong>SafcoProducts.com</strong></a>
+	</div>
+	<div class="small-10 medium-6 columns">
+		<p class="wow fadeIn"><strong>Mayline</strong> was founded in 1939, manufacturing drafting tables as the Engineering Supply Company. Today, Mayline is one of the leading mid-market contract furniture manufacturers in the U.S., offering a complete collection of office furniture, filing, storage and customized solutions. As one of our most recent acquisitions (October 2016), Mayline is headquartered and manufactures the majority of its products in Sheboygan, Wisconsin, with a distribution center in Little Rock, Arkansas. Mayline employs approximately 220 people.</p>
+		<p class="wow fadeIn"><strong>Safco</strong> is a leader in providing innovative and cost-effective products for the office environment. We create workspaces that energize and inspire people. Employing more than 120 individuals in total, our headquarters are based in Minneapolis, Minnesota with distribution centers in Kennesaw, Georgia; Riverside, California; and Windsor, Virginia.</p>
+		<p class="wow fadeIn">Together, our companies Mayline & Safco bring 125 years of industry knowledge and operate in unison to bring even more mid-market, workspace product innovations to the commercial furniture industry.</p>
 	</div>
 </div>
 <div class="row align-center company">
@@ -74,23 +93,6 @@
 </div>
 <div class="row align-center company">
 	<div class="small-10 medium-3 columns">
-		<img class="wow fadeIn" src="{{root}}assets/img/logos/mayline-safco.png" alt="Safco">
-		<p class="wow fadeIn">Minneapolis, MN<br>
-		North Kingstown, RI<br>
-		Kennesaw, GA<br>
-		Riverside, CA<br>
-		Windsor, VA
-		</p>
-		<a class="wow fadeIn" href="http://www.SafcoProducts.com" target="_blank"><strong>SafcoProducts.com</strong></a>
-	</div>
-	<div class="small-10 medium-6 columns">
-		<p class="wow fadeIn"><strong>Safco</strong> is a leader in providing innovative and cost-effective products for the office environment. We create workspaces that energize and inspire people. Employing more than 120 individuals in total, our headquarters are based in Minneapolis, Minnesota with distribution centers in Kennesaw, Georgia; Riverside, California; and Windsor, Virginia.</p>
-
-		<p class="wow fadeIn">Together, our companies <strong>Mayline & Safco</strong> bring 125 years of industry knowledge and operate in unison to bring even more mid-market, workspace product innovations to the commercial furniture industry.</p>
-	</div>
-</div>
-<div class="row align-center company">
-	<div class="small-10 medium-3 columns">
 		<img class="wow fadeIn" src="{{root}}assets/img/logos/verscene.png" alt="Verscene">
 		<p class="wow fadeIn">Minneapolis, MN<br>
 		Baldwyn, MS
@@ -101,34 +103,5 @@
 		<p class="wow fadeIn">The operating companies of <strong>Verscene – Quarrix and Diversiplast –</strong> are driven to create, innovate and transform our respective industries. We strive to exceed customer expectations and offer unique products and services to the marketplace.  Diversiplast provides custom design, prototyping, extrusion and fabrication of corrugated plastic packaging and material-handling solutions across a multitude of industries and uses. Quarrix Building Products is a leading manufacturer of high-quality specialty roofing materials, including ridge vent, composite roof tile and a full suite of roof ventilation accessories.  Verscene employs a combined total of nearly 100 individuals at our headquarters in Golden Valley, Minnesota and our manufacturing facility in Baldwyn, Mississippi.</p>
 
 		<p class="wow fadeIn"><strong>Southern Diversified Industries (SDI)</strong> is the manufacturing arm of Verscene and is located in Baldwyn, Mississippi. Established in 1984, SDI extrudes plastic resins into rolls of plastic that are sold either in the original rolled state or in sheet stock and manufactured on site into corrugated plastic products for a variety of companies east of the Rockies.  SDI comprises approximately 60 full-time employees and operates 24 hours a day across 3 shifts, 5 days a week.</p>
-	</div>
-</div>
-<div class="row align-center company">
-	<div class="small-10 medium-3 columns">
-		<img class="wow fadeIn" src="{{root}}assets/img/logos/mayline-safco.png" alt="Safco">
-		<p class="wow fadeIn">Minneapolis, MN<br>
-		North Kingstown, RI<br>
-		Kennesaw, GA<br>
-		Riverside, CA<br>
-		Windsor, VA
-		</p>
-		<a class="wow fadeIn" href="http://www.SafcoProducts.com" target="_blank"><strong>SafcoProducts.com</strong></a>
-	</div>
-	<div class="small-10 medium-6 columns">
-		<p class="wow fadeIn"><strong>Safco</strong> is a leader in providing innovative and cost-effective products for the office environment. We create workspaces that energize and inspire people. Employing more than 120 individuals in total, our headquarters are based in Minneapolis, Minnesota with distribution centers in Kennesaw, Georgia; Riverside, California; and Windsor, Virginia.</p>
-
-		<p class="wow fadeIn">Together, our companies <strong>Mayline & Safco</strong> bring 125 years of industry knowledge and operate in unison to bring even more mid-market, workspace product innovations to the commercial furniture industry.</p>
-	</div>
-</div>
-<div class="row align-center company">
-	<div class="small-10 medium-3 columns">
-		<img class="wow fadeIn" src="{{root}}assets/img/logos/liberty-paper.png" alt="Liberty Paper, Inc.">
-		<p class="wow fadeIn">Becker, MN
-		</p>
-		<a class="wow fadeIn" href="http://www.libertypaper.com/" target="_blank"><strong>LibertyPaper.com/</strong></a>
-	</div>
-	<div class="small-10 medium-6 columns">
-		<p class="wow fadeIn"><strong>Liberty Paper, Inc.</strong>, located in Becker, Minn, is a high technology driven paper mill that recycles old corrugated containers (OCC) into Kraft liner board for new corrugated packaging. This 100% recycled paper mill is as committed to the environment as they are to product innovation.</p>
-
 	</div>
 </div>

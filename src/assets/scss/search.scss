@@ -63,6 +63,15 @@ table {
 	}
 	th {
 		color: #D61C38;
+		a {
+			color: #D61C38;
+			transition: all 0.25s ease-out;
+			&:hover {
+				color: #D61C38;
+				opacity: 0.7;
+				transition: all 0.25s ease-out;
+			}
+		}
 	}
 	tbody {
 		tr {

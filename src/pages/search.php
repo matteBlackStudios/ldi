@@ -33,7 +33,7 @@
 <div class="search-title">
 	<div class="row">
 		<div class="small-12 medium-9 large-10 columns">
-			<h4 class="wow fadeIn">Most Popular Jobs in <span id="current-location">United States</span></h4>
+			<h4 class="wow fadeIn">Current LDI Opportunities in <span id="current-location">the United States</span></h4>
 			<!--<p class="wow fadeIn">(showing 5 of 37 jobs)</p>-->
 		</div>
 		<div class="small-12 medium-3 large-2 columns">

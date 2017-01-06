@@ -68,27 +68,14 @@
 	</div>
 </div>
 
-<!--
-<div class="row align-left posting-section">
-	<div class="small-10 small-offset-1 medium-4 large-3 columns">
-		<h4 class="wow fadeIn">QUALIFICATION</h4>
-	</div>
-	<div class="small-10 small-offset-1 medium-8 large-6 columns">
-		<ul>
-			<li class="wow fadeIn">Bachelor’s degree in a business or finance related field</li>
-
-			<li class="wow fadeIn">Minimum 3 years experience in a related area</li>
-			
-			<li class="wow fadeIn">Strong background in financial reporting and analysis</li>
-			
-			<li class="wow fadeIn">Ability to complete tasks within a given time in high-pressure and fast moving environment</li>
-			
-			<li class="wow fadeIn">Strong communication, administrative, and organization skills</li>
-			
-			<li class="wow fadeIn">Advanced level of understanding in Microsoft Excel and PowerPoint</li>
-			
-			<li class="wow fadeIn">Knowledge of SQL desirable</li>
-		</ul>
+<div class="row hr">
+	<div class="small-12 columns wow fadeIn">
+		<hr>
 	</div>
 </div>
--->
+
+<div class="row align-center">
+	<div class="small-11 medium-5 large-4 columns">
+		<a class="button" style="display: block;"><?php echo $post['JobLink']; ?></a>
+	</div>
+</div>
